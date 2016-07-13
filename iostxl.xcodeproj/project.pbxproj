@@ -14,6 +14,15 @@
 		844D2C091D362588003D11D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844D2C071D362588003D11D0 /* LaunchScreen.storyboard */; };
 		844D2C141D362588003D11D0 /* iostxlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D2C131D362588003D11D0 /* iostxlTests.swift */; };
 		844D2C1F1D362588003D11D0 /* iostxlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D2C1E1D362588003D11D0 /* iostxlUITests.swift */; };
+		844D2C2D1D362604003D11D0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 844D2C2C1D362604003D11D0 /* libsqlite3.0.tbd */; };
+		844D2C301D362666003D11D0 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = 844D2C2F1D362666003D11D0 /* data.db */; };
+		844D2C351D36266F003D11D0 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D2C321D36266F003D11D0 /* SQLiteDB.swift */; };
+		844D2C361D36266F003D11D0 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D2C331D36266F003D11D0 /* SQLTable.swift */; };
+		844D2C371D36266F003D11D0 /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D2C341D36266F003D11D0 /* String-Extras.swift */; };
+		844D2C3A1D362B91003D11D0 /* shanchu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D2C391D362B91003D11D0 /* shanchu.swift */; };
+		844D2C3C1D362BB0003D11D0 /* chazhao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D2C3B1D362BB0003D11D0 /* chazhao.swift */; };
+		844D2C3E1D362BC7003D11D0 /* kan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D2C3D1D362BC7003D11D0 /* kan.swift */; };
+		844D2C421D3633B8003D11D0 /* u=1693004701,1420148631&fm=21&gp=0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 844D2C411D3633B8003D11D0 /* u=1693004701,1420148631&fm=21&gp=0.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,16 @@
 		844D2C1A1D362588003D11D0 /* iostxlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iostxlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		844D2C1E1D362588003D11D0 /* iostxlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iostxlUITests.swift; sourceTree = "<group>"; };
 		844D2C201D362588003D11D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844D2C2C1D362604003D11D0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		844D2C2E1D362612003D11D0 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		844D2C2F1D362666003D11D0 /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.db; sourceTree = "<group>"; };
+		844D2C321D36266F003D11D0 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		844D2C331D36266F003D11D0 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
+		844D2C341D36266F003D11D0 /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extras.swift"; sourceTree = "<group>"; };
+		844D2C391D362B91003D11D0 /* shanchu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shanchu.swift; sourceTree = "<group>"; };
+		844D2C3B1D362BB0003D11D0 /* chazhao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chazhao.swift; sourceTree = "<group>"; };
+		844D2C3D1D362BC7003D11D0 /* kan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kan.swift; sourceTree = "<group>"; };
+		844D2C411D3633B8003D11D0 /* u=1693004701,1420148631&fm=21&gp=0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "u=1693004701,1420148631&fm=21&gp=0.jpg"; path = "../u=1693004701,1420148631&fm=21&gp=0.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844D2C2D1D362604003D11D0 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +97,10 @@
 		844D2BF21D362588003D11D0 = {
 			isa = PBXGroup;
 			children = (
+				844D2C411D3633B8003D11D0 /* u=1693004701,1420148631&fm=21&gp=0.jpg */,
+				844D2C2C1D362604003D11D0 /* libsqlite3.0.tbd */,
+				844D2C2F1D362666003D11D0 /* data.db */,
+				844D2C311D36266F003D11D0 /* SQLiteDB */,
 				844D2BFD1D362588003D11D0 /* iostxl */,
 				844D2C121D362588003D11D0 /* iostxlTests */,
 				844D2C1D1D362588003D11D0 /* iostxlUITests */,
@@ -97,11 +121,16 @@
 		844D2BFD1D362588003D11D0 /* iostxl */ = {
 			isa = PBXGroup;
 			children = (
+				844D2C381D362B7C003D11D0 /* New Group */,
 				844D2BFE1D362588003D11D0 /* AppDelegate.swift */,
+				844D2C391D362B91003D11D0 /* shanchu.swift */,
+				844D2C3B1D362BB0003D11D0 /* chazhao.swift */,
 				844D2C001D362588003D11D0 /* ViewController.swift */,
+				844D2C3D1D362BC7003D11D0 /* kan.swift */,
 				844D2C021D362588003D11D0 /* Main.storyboard */,
 				844D2C051D362588003D11D0 /* Assets.xcassets */,
 				844D2C071D362588003D11D0 /* LaunchScreen.storyboard */,
+				844D2C2E1D362612003D11D0 /* Header.h */,
 				844D2C0A1D362588003D11D0 /* Info.plist */,
 			);
 			path = iostxl;
@@ -123,6 +152,23 @@
 				844D2C201D362588003D11D0 /* Info.plist */,
 			);
 			path = iostxlUITests;
+			sourceTree = "<group>";
+		};
+		844D2C311D36266F003D11D0 /* SQLiteDB */ = {
+			isa = PBXGroup;
+			children = (
+				844D2C321D36266F003D11D0 /* SQLiteDB.swift */,
+				844D2C331D36266F003D11D0 /* SQLTable.swift */,
+				844D2C341D36266F003D11D0 /* String-Extras.swift */,
+			);
+			path = SQLiteDB;
+			sourceTree = "<group>";
+		};
+		844D2C381D362B7C003D11D0 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				844D2C091D362588003D11D0 /* LaunchScreen.storyboard in Resources */,
+				844D2C301D362666003D11D0 /* data.db in Resources */,
 				844D2C061D362588003D11D0 /* Assets.xcassets in Resources */,
+				844D2C421D3633B8003D11D0 /* u=1693004701,1420148631&fm=21&gp=0.jpg in Resources */,
 				844D2C041D362588003D11D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844D2C3C1D362BB0003D11D0 /* chazhao.swift in Sources */,
+				844D2C371D36266F003D11D0 /* String-Extras.swift in Sources */,
+				844D2C3A1D362B91003D11D0 /* shanchu.swift in Sources */,
+				844D2C351D36266F003D11D0 /* SQLiteDB.swift in Sources */,
+				844D2C361D36266F003D11D0 /* SQLTable.swift in Sources */,
 				844D2C011D362588003D11D0 /* ViewController.swift in Sources */,
+				844D2C3E1D362BC7003D11D0 /* kan.swift in Sources */,
 				844D2BFF1D362588003D11D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +457,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = imnu.iostxl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/admin/Desktop/iostxl/iostxl/Header.h;
 			};
 			name = Debug;
 		};
@@ -414,6 +469,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = imnu.iostxl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/admin/Desktop/iostxl/iostxl/Header.h;
 			};
 			name = Release;
 		};
